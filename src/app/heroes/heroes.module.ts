@@ -6,7 +6,7 @@ import { ListComponent } from "./list/list.component";
 
 
 @NgModule({
-  declarations: [HeroesModule],
+  declarations: [HeroComponent, ListComponent],
   imports:[ CommonModule],
   exports: [ HeroComponent, ListComponent]
 })
